@@ -41,6 +41,8 @@ for (var num = 10; num > 0; num--) {
 		console.log(num);
 }
 
+
+// sample of while and for loops
 var currentGen = 1;
 var totalGen = 19;
 var totalMW = 0;
