@@ -16,8 +16,7 @@ while(num > 0){
   num--;
 }
 
-// while loops
-while loops
+//while loops
 var numSheep = 4;
 var monthNumber = 1;
 var monthsToPrint = 12;
@@ -56,4 +55,14 @@ while (currentGen <= 4) {
 for (currentGen = 5; currentGen <= totalGen; currentGen++) {
   totalMW += 124;
   console.log("Generator #" + currentGen + " is on, adding 124 MW, for a total of " + totalMW + " MW!");
+}
+
+conditional loops
+var num = 10;
+
+while (num > 0) {
+  if (num % 2 == 0) {
+    console.log(num);
+  }
+  num--;
 }
